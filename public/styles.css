@@ -1,0 +1,45 @@
+body,
+html {
+  margin: 0;
+  padding: 20px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#timezone,
+#summary,
+#temperature {
+  color: rgb(0, 128, 117);
+}
+
+.weather-container {
+  padding: 10px;
+  background-color: rgb(255, 116, 116);
+}
+
+#airQ-container {
+  padding: 10px;
+  background-color: rgb(160, 160, 255);
+}
+
+#checkInMap {
+  height: 380px;
+}
+
+.container {
+  background-color: rgb(209, 209, 209);
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.container-data {
+  margin-bottom: 5px;
+}
+
+.container-data:last-child {
+  margin-bottom: 0px;
+}

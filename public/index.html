@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js" integrity="sha256-8IAwtdm0tRSYpMA1G5K1jpeHZq1N02yrdpoBteVVuMc=" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js" integrity="sha256-GdlroanCXFgv0ILaTQ1v0qnNxc+FQNjjXADWxmtr7PM=" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <title>Module 3</title>
+</head>
+<body>
+  
+  <h1>Geolocation</h1>
+
+  <a href="/">Check In</a> | <a href="/result/" target="__blank">All Result</a>
+
+  <p>Location: <span id="timezone"></span></p>
+  <p class="weather-container">
+    The weather here at <span id="latitude"></span>, <span id="longitude"></span> is <span id="summary"></span> with a temperature of <span id="temperature"></span>&deg;C.
+  </p>
+  <p id="airQ-container">
+    The concentration of particulate matter (<span id="aq_pm"></span>) is <span id="aq_value"></span> <span id="aq_unit"></span> last read on <span id="aq_date"></span>
+  </p>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
