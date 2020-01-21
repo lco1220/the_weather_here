@@ -51,7 +51,7 @@ const timezone_span = document.getElementById('timezone')
             
         const db_response = await fetch('/api', options);
         const data_response = await db_response.json();
-        console.log(data_response);
+        // console.log(data_response);
 
       });
 

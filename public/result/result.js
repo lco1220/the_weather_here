@@ -53,4 +53,4 @@ async function showData() {
 
   console.log(all_data);
   
-}
+};
